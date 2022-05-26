@@ -125,3 +125,44 @@ header {
   line-height: 16px;
   color: #344563;
 }
+
+.role {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.year {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.frame-2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;  
+}
+
+.project-info-p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.logo-tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
