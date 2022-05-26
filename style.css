@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-body{
-background-image: url(./assets/images/header-shapes\ mobile.png);
-background-repeat: no-repeat;
-}
+
 
 *{
     border: 0;
@@ -14,7 +11,7 @@ background-repeat: no-repeat;
 header {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    margin: 20px;
 }
 
 .logo{
@@ -35,6 +32,12 @@ header {
     height: 12px;
     left: 3px;
     top: 6px;
+}
+
+.headline-section{
+    background-image: url(./assets/images/header-shapes\ mobile.png);
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .heading-1{
