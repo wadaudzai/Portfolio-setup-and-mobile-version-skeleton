@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Abdul Rahman Daudzai**
 
 - GitHub: [@wadaudzai](https://github.com/wadaudzai)
 - Twitter: [@wadaudzai](https://twitter.com/wadaudzai)

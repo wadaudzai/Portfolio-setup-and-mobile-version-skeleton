@@ -4,40 +4,48 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
+  background-color: #E5E5E5;
   position: absolute;
   width: 375px;
   height: 718px;
+  z-index: -1;
 }
 
 header {
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
-  width: 375px;
-  height: 92px;
+  align-items: center;
+  padding: 58px 24px;
 }
 
 .logo {
   color: #6070ff;
-  width: 76px;
-  height: 20px;
+  width: 100px;
+  height: 40px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  text-decoration: none;
 }
 
 .menu {
-  width: 40px;
-  height: 40px;
-  padding: 16px;
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+  color: #6070ff;
 }
 
 .headline-section {
+  background-color: #fff;
   background-image: url(./assets/images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
+  border-radius: 0 0 0 80px;
   height: 604px;
   width: 375px;
   left: calc(50% - 375px / 2);
@@ -50,8 +58,6 @@ header {
 
 .heading-1 {
   color: #172b4d;
-  width: 327px;
-  height: 150px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -61,8 +67,6 @@ header {
 
 .intro-info {
   color: #344563;
-  width: 327px;
-  height: 146px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -72,8 +76,6 @@ header {
 
 .connect-info {
   color: #7f8cff;
-  width: 125px;
-  height: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -82,5 +84,10 @@ header {
 }
 
 .logo-images {
-  padding: 10px;
+  padding-right: 10px;
+}
+
+.main-icons{
+    list-style-type: none;
+    display: flex;
 }
