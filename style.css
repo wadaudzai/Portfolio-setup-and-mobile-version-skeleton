@@ -95,7 +95,8 @@ header {
 .work-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 1rem;
   justify-content: space-around;
   width: 327px;
   height: 552px;
@@ -107,6 +108,13 @@ header {
 .photo-section {
 
 }
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
 
 .project-title-heading{
   font-family: 'Poppins', sans-serif;
@@ -152,12 +160,13 @@ header {
 }
 
 .project-info-p{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  width: 295px;
 }
 
 .logo-tags {
@@ -172,7 +181,6 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   gap: 10px;
 }
 
