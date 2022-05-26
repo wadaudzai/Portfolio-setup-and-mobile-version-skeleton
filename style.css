@@ -1,90 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-
-
 *{
-    border: 0;
-    padding: 0;
-    box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{
-    position: absolute;
-    width: 375px;
-    height: 718px;
-    left: 0px;
-    top: 0px;
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 0px;
+  top: 0px;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    width: 375px;
-    height: 92px;
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  height: 92px;
 }
 
 .logo{
-    color: #6070FF;
-    width: 76px;
-    height: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
+  color: #6070FF;
+  width: 76px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .menu{
-    width: 40px;
-    height: 40px;
-    padding: 16px;
+  width: 40px;
+  height: 40px;
+  padding: 16px;
 }
 
 .headline-section{
-    background-image: url(./assets/images/header-shapes\ mobile.png);
-    background-repeat: no-repeat;
-    height: 604px;
-    width: 375px;
-    left: calc(50% - 375px/2);
-    top: 92px;
-    display: flex;
-    flex-direction: column;
-    padding: 114px 24px;
-    gap: 12px;
+  background-image: url(./assets/images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  height: 604px;
+  width: 375px;
+  left: calc(50% - 375px/2);
+  top: 92px;
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px;
+  gap: 12px;
 }
 
 .heading-1{
-    color: #172B4D;
-    width: 327px;
-    height: 150px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
+  color: #172B4D;
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 .intro-info{
-    color: #344563;
-    width: 327px;
-    height: 146px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+  color: #344563;
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 .connect-info{
-    color: #7F8CFF;
-    width: 125px;
-    height: 24px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+  color: #7F8CFF;
+  width: 125px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .logo-images{
-    padding: 10px;
+  padding: 10px;
 }
 
 
