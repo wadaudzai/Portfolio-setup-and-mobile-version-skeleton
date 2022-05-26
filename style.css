@@ -167,3 +167,25 @@ header {
   gap: 8px;
   list-style-type: none;
 }
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+}
+
+.button-see-project {
+  color: #6070ff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  width: 124px;
+  height: 48px;
+  font-weight: 700;
+}
+
+.button-see-project:hover {
+    background-color: #6070ff;
+    color: #fff;
+}
