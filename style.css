@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-*{
+* {
   border: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
 }
 
 header {
@@ -21,7 +19,7 @@ header {
   height: 92px;
 }
 
-.logo{
+.logo {
   color: #6070FF;
   width: 76px;
   height: 20px;
@@ -31,13 +29,13 @@ header {
   line-height: 20px;
 }
 
-.menu{
+.menu {
   width: 40px;
   height: 40px;
   padding: 16px;
 }
 
-.headline-section{
+.headline-section {
   background-image: url(./assets/images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   height: 604px;
@@ -50,7 +48,7 @@ header {
   gap: 12px;
 }
 
-.heading-1{
+.heading-1 {
   color: #172B4D;
   width: 327px;
   height: 150px;
@@ -60,7 +58,7 @@ header {
   font-size: 40px;
   line-height: 52px;
 }
-.intro-info{
+.intro-info {
   color: #344563;
   width: 327px;
   height: 146px;
@@ -70,7 +68,7 @@ header {
   font-size: 16px;
   line-height: 24px;
 }
-.connect-info{
+.connect-info {
   color: #7F8CFF;
   width: 125px;
   height: 24px;
@@ -81,7 +79,7 @@ header {
   line-height: 24px;
 }
 
-.logo-images{
+.logo-images {
   padding: 10px;
 }
 
