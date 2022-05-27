@@ -91,6 +91,13 @@ header {
   list-style-type: none;
   display: flex;
 }
+.work{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin: 30px;
+  gap: 30px;
+}
 
 .work-section {
   display: flex;
@@ -105,17 +112,6 @@ header {
   border-radius: 16px;
   padding: 16px;
 }
-
-.photo-section {
-
-}
-
-.left-block {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-  }
 
 .project-title-heading{
   font-family: 'Poppins', sans-serif;
@@ -201,4 +197,76 @@ header {
 .button-see-project:hover {
   background-color: #6070ff;
   color: #fff;
+}
+
+.about-myself-section {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  gap: 24px;
+  border-radius: 0 80px 0 0;
+}
+
+.about-myself-header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  background-color: #fff;
+  width: 375px;
+  height: 1125.15px;
+  width: 327px;
+  height: 101px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.top-part-about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+}
+
+.about-myself-paragraph {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button-resume {
+    color: #396DF2;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    width: 138px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+  }
+
+  .button-resume:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+.lang-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 327px;
+  height: 320.15px;
+}
+
+ul {
+    list-style-type: none;
 }
