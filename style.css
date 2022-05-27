@@ -175,10 +175,10 @@ header {
 }
 
 .button-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 .button-see-project {
@@ -192,6 +192,7 @@ header {
   line-height: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  background-color: #fff;
 }
 
 .button-see-project:hover {
@@ -252,6 +253,7 @@ header {
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+    background-color: #fff;
   }
 
   .button-resume:hover {
@@ -259,14 +261,64 @@ header {
     color: #fff;
   }
 
-.lang-list {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 327px;
-  height: 320.15px;
-}
-
 ul {
     list-style-type: none;
 }
+
+.first-list-about-myself {
+  display: flex;
+  justify-content: space-between;
+  justify-content: baseline;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 8px;
+  width: 327px;
+  height: 72px;
+}
+
+.language-categories-about-myself {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.lang-logo-tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  background: #F7F7F9;
+  width: 303px;
+  height: 66.72px;
+  border-radius: 8px;
+}
+
+.last-list-about-myself {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 8px;
+  width: 327px;
+  height: 62px;
+  border-bottom: 1px solid #DFE1E6;
+}
+
+
+
