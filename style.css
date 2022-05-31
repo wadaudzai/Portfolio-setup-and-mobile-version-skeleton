@@ -326,7 +326,7 @@ ul {
 }
 
 .contact-h2 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -336,7 +336,7 @@ ul {
 }
 
 .contact-p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -378,7 +378,7 @@ ul {
   margin-left: 20px;
   width: 140px;
   height: 48px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
