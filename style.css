@@ -322,6 +322,7 @@ ul {
   background: #6070ff url(./assets/images/contact-bg.svg) no-repeat 100% 100%;
   height: max-content;
   width: 375px;
+  border-top-left-radius: 80px;
 }
 
 .contact-h2 {
@@ -390,4 +391,13 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  padding-left: 10px;
+}
+
+.form-article img{
+  margin: 32px 121px 8px 121px;
 }
