@@ -360,6 +360,7 @@ ul {
   width: 327px;
   border-radius: 8px;
   margin-bottom: 20px;
+  color: #172b4d;
 }
 
 .contact-form input:last-child {
@@ -384,6 +385,7 @@ ul {
   font-size: 17px;
   line-height: 24px;
   color: #6070ff;
+  background-color: #fff;
   border-radius: 8px;
 }
 
@@ -395,9 +397,24 @@ ul {
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  padding-left: 10px;
+  padding-left: 16px;
 }
 
 .form-article img {
   margin: 32px 121px 8px 121px;
+}
+
+.contact-form button:hover {
+  background-color: #817dfa;
+  color: #fff;
+}
+
+.contact-form button:active {
+  background-color: #3832fa;
+  color: #fff;
+}
+
+.contact-form button:disabled {
+  background-color: #fff;
+  color: #808080;
 }
