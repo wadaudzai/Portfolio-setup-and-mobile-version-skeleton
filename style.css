@@ -461,4 +461,7 @@ ul {
   margin-bottom: 2.125em;
 }
 
+.home-indicator {
+  display: none;
+}
 }
