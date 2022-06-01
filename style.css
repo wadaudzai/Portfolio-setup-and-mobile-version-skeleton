@@ -477,4 +477,23 @@ ul {
   display: block;
   margin: 24px 46px 24px 24px;
 }
+
+.first-list-about-myself {
+  width: 582px;
+}
+
+.last-list-about-myself {
+  width: 582px;
+}
+
+.lang-logo-tags {
+  width: 122px;
+  height: 120px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.language-categories-about-myself {
+  flex-direction: row;
+}
 }
