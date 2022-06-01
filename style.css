@@ -432,9 +432,8 @@ ul {
   }
 
 .work-section {
-  width: 1146px;
-  height: 496px;
-
+  width: 71.625em;
+  height: 31em;
 }
 
 .work {
@@ -457,4 +456,9 @@ ul {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
+.top-part-about-section ul {
+  margin-top: 1.625em;
+  margin-bottom: 2.125em;
+}
+
 }
