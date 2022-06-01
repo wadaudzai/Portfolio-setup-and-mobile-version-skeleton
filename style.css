@@ -423,6 +423,10 @@ ul {
   padding-top: 15px;
 }
 
+.portfolio-img-1-desktop {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
 .headline-section {
   background: #fff url(./assets/images/header-bg-desktop.svg) no-repeat;
@@ -463,5 +467,14 @@ ul {
 
 .home-indicator {
   display: none;
+}
+
+.portfolio-img-1-mobile {
+  display: none;
+}
+
+.portfolio-img-1-desktop {
+  display: block;
+  margin: 24px 46px 24px 24px;
 }
 }
