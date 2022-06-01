@@ -10,8 +10,8 @@
 body {
   background-color: #e5e5e5;
   position: absolute;
-  width: 375px;
-  height: 718px;
+  width: 100%;
+  height: 100%;
   z-index: -1;
 }
 
@@ -421,4 +421,27 @@ ul {
 
 .contact-form textarea {
   padding-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+.headline-section {
+  background: url(./assets/images/header-bg-desktop.svg);
+  width: 100%;
+  }
+
+.work-section {
+  width: 100%;
+  display: flex;
+
+}
+
+.contact-section {
+  width: 100%;
+  background: #6070FF url(./assets/images/contact-bg-form-desktop.svg);
+}
+
+.main-part {
+  width: 1440px;
+  height: 916px;
+}
 }
