@@ -418,3 +418,7 @@ ul {
   background-color: #fff;
   color: #808080;
 }
+
+.contact-form textarea {
+  padding-top: 15px;
+}
