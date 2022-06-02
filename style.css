@@ -444,11 +444,11 @@ ul {
 
 @media screen and (min-width: 768px) {
 
-  
+
   .text-mobile {
     display: none;
   }
-  
+
   .text-desktop {
     display: block;
   }
@@ -645,5 +645,5 @@ ul {
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
+  }
 }
- }
