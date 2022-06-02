@@ -121,9 +121,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 12px;
-} 
+}
 
 .project-title-heading {
   font-family: 'Poppins', sans-serif;
@@ -445,205 +444,205 @@ ul {
 
 @media screen and (min-width: 768px) {
 
-  .text-mobile {
+.text-mobile {
+  display: none;
+}
+  
+.text-desktop {
+  display: block;
+}
+
+  header {
+    width: 90em;
+    height: 4.5em;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .logo {
+    width: 76px;
+    height: 20px;
+    font-style: normal;
+    margin-left: 155px;
+  }
+
+  .header-image-mobile {
     display: none;
   }
-  
-  .text-desktop {
+
+  .menu {
+    width: 259px;
+    height: 40px;
+    text-align: center;
+    margin-right: 154px;
+  }
+
+  .top-nav-desktop {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+  }
+
+  .top-nav-items-desktop {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    width: 63px;
+    height: 20px;
+    color: #344563;
+  }
+
+  .headline-section {
+    background: #fff url(./assets/images/header-bg-desktop.svg) no-repeat 100% 20%;
+    width: 100%;
+    height: 57.25em;
+    align-items: flex-start;
+   padding: 289px 260px 289px 260px;
+  }
+
+  .heading-1 {
+    font-size: 48px;
+  }
+
+  .intro-info {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .role {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .year {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .project-info-p {
+    width: 450px;
+    height: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .work-section {
+    width: 71.625em;
+    height: 31em;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .work-section-texts {
+    width: 544px;
+    height: 445px;
+    padding: 24px;
+    gap: 24px;
+  }
+
+  .work {
+    justify-items: center;
+    margin: 142px;
+    gap: 142px;
+  }
+
+  .contact-section {
+    width: 100%;
+    height: 52.875em;
+    background: #6070FF url(./assets/images/contact-bg-form-desktop.svg) no-repeat 65% 65%;
+  }
+
+  .main-part {
+    width: 1440px;
+    height: 916px;
+  }
+
+  .about-myself-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .top-part-about-section ul {
+    margin-top: 1.625em;
+    margin-bottom: 2.125em;
+  }
+
+  .home-indicator {
+    display: none;
+  }
+
+  .portfolio-img-1-mobile {
+    display: none;
+  }
+
+  .portfolio-img-1-desktop {
     display: block;
   }
 
-header {
-  width: 90em;
-  height: 4.5em;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-.logo {
-  width: 76px;
-  height: 20px;
-  font-style: normal;
-  margin-left: 155px;
-}
-
-.header-image-mobile {
-  display: none;
-}
-
-.menu {
-  width: 259px;
-  height: 40px;
-  text-align: center;
-  margin-right: 154px;
-}
-
-.top-nav-desktop {
-  display: block;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-}
-
-.top-nav-items-desktop {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  width: 63px;
-  height: 20px;
-  color: #344563;
-}
-
-.headline-section {
-  background: #fff url(./assets/images/header-bg-desktop.svg) no-repeat 100% 20%;
-  width: 100%;
-  height: 57.25em;
-  align-items: flex-start;
-  padding: 289px 260px 289px 260px;
+  .first-list-about-myself {
+    width: 582px;
   }
 
-.heading-1 {
-  font-size: 48px;
-}
+  .last-list-about-myself {
+    width: 582px;
+  }
 
-.intro-info {
-  font-size: 20px;
-  line-height: 28px;
-}
+  .lang-logo-tags {
+    width: 122px;
+    height: 120px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-.role {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-}
+  .language-categories-about-myself {
+    flex-direction: row;
+  }
 
-.year {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-}
+  .contact-form button {
+    align-self: center;
+  }
 
-.project-info-p {
-  width: 450px;
-  height: 70px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
+  #message-container {
+    width: 447px;
+  }
 
-.work-section {
-  width: 71.625em;
-  height: 31em;
-  flex-direction: row;
-  justify-content: flex-start;
-}
+  .contact-form input {
+    width: 447px;
+  }
 
-.work-section-texts {
-  width: 544px;
-  height: 445px;
-  padding: 24px;
-  gap: 24px;
-}
+  .contact-p {
+    width: 569px;
+    margin-bottom: 12px;
+  }
 
-.work {
-  justify-items: center;
-  margin: 142px;
-  gap: 142px;
-}
+  .contact-content-1 {
+    padding-top: 70px;
+  }
 
-.contact-section {
-  width: 100%;
-  height: 52.875em;
-  background: #6070FF url(./assets/images/contact-bg-form-desktop.svg) no-repeat 65% 65%;
-}
+  .frame-2 {
+    gap: 24px;
+  }
 
-.main-part {
-  width: 1440px;
-  height: 916px;
-}
+  .client-heading {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
 
-.about-myself-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-}
-.top-part-about-section ul {
-  margin-top: 1.625em;
-  margin-bottom: 2.125em;
-}
-
-.home-indicator {
-  display: none;
-}
-
-.portfolio-img-1-mobile {
-  display: none;
-}
-
-.portfolio-img-1-desktop {
-  display: block;
-}
-
-.first-list-about-myself {
-  width: 582px;
-}
-
-.last-list-about-myself {
-  width: 582px;
-}
-
-.lang-logo-tags {
-  width: 122px;
-  height: 120px;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.language-categories-about-myself {
-  flex-direction: row;
-}
-
-.contact-form button {
-  align-self: center;
-}
-
-#message-container {
-  width: 447px;
-}
-
-.contact-form input {
-  width: 447px;
-}
-
-.contact-p {
-  width: 569px;
-  margin-bottom: 12px;
-}
-
-.contact-content-1 {
-  padding-top: 70px;
-}
-
-.frame-2 {
-  gap: 24px;
-}
-
-.client-heading {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-.project-title-heading {
-  width: 496px;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091e42;
-}
-}
+  .project-title-heading {
+    width: 496px;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+ }
