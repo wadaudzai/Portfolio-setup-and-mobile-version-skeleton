@@ -535,11 +535,13 @@ ul {
   }
 
   .work-section {
-    width: 100%;
+    width: fit-content;
     height: max-content;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    gap: 24px;
+    padding-top: 24px;
   }
 
   .work-section-texts {
@@ -573,6 +575,8 @@ ul {
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: auto;
+    padding: 142px;
+    align-items: baseline;
   }
 
   .top-part-about-section ul {
@@ -598,6 +602,7 @@ ul {
 
   .last-list-about-myself {
     width: 100%;
+    margin-top: 36px;
   }
 
   .lang-logo-tags {
