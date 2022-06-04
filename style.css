@@ -466,10 +466,6 @@ ul {
     transition: all 1s;
   }
 
-  .top-nav-items-desktop:hover {
-    transform: scale(1.3);
-  }
-
   .header-image-mobile {
     display: none;
   }
