@@ -466,10 +466,6 @@ ul {
     transition: all 1s;
   }
 
-  .top-nav-items-desktop {
-    transition: all 1s;
-  }
-
   .top-nav-items-desktop:hover {
     transform: scale(1.3);
   }
@@ -502,6 +498,11 @@ ul {
     width: 63px;
     height: 20px;
     color: #344563;
+    transition: all 1s;
+  }
+
+  .top-nav-items-desktop:hover {
+    transform: scale(1.3);
   }
 
   .headline-section {
