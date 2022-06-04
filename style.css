@@ -463,6 +463,7 @@ ul {
     height: 20px;
     font-style: normal;
     margin-left: 155px;
+    transition: all 1s;
   }
 
   .header-image-mobile {
@@ -493,6 +494,11 @@ ul {
     width: 63px;
     height: 20px;
     color: #344563;
+    transition: all 1s;
+  }
+
+  .top-nav-items-desktop:hover {
+    transform: scale(1.3);
   }
 
   .headline-section {
@@ -501,6 +507,14 @@ ul {
     height: 57.25em;
     align-items: flex-start;
     padding: 289px 260px 289px 260px;
+  }
+
+  .logo-images {
+    transition: all 1s;
+  }
+
+  .logo-images:hover {
+    transform: scale(1.4);
   }
 
   .heading-1 {
@@ -552,6 +566,14 @@ ul {
 
   .logo-tags {
     align-items: baseline;
+  }
+
+  .logo-tags li {
+    transition: all 0.5s;
+  }
+
+  .logo-tags li:hover {
+    transform: scale(1.2);
   }
 
   .work {
