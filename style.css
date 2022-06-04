@@ -571,6 +571,14 @@ ul {
     align-items: baseline;
   }
 
+  .logo-tags li {
+    transition: all 0.5s;
+  }
+
+  .logo-tags li:hover {
+    transform: scale(1.2);
+  }
+
   .work {
     justify-items: center;
     margin: 142px;
