@@ -15,9 +15,9 @@
 - HTML, CSS, Flexbox
 - Visual Studio Code
 
-## Github Pages Link 
+## Live Demo Link 
 
-[Github Pages Link](https://wadaudzai.github.io/Portfolio-setup-and-mobile-version-skeleton/)
+[Live Demo Link](https://wadaudzai.github.io/Portfolio-setup-and-mobile-version-skeleton/)
 
 
 ## Getting Started
