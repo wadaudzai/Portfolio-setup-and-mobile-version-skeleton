@@ -45,6 +45,10 @@ header {
   color: #6070ff;
 }
 
+.main-part {
+  overflow: hidden;
+}
+
 .headline-section {
   background-color: #fff;
   background-image: url(./assets/images/header-shapes\ mobile.png);
@@ -100,6 +104,7 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
   margin: 30px;
   gap: 30px;
 }
