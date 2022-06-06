@@ -7,7 +7,7 @@
 2. style.css
 3. linters.yml
 
-    This project was built to display a portfolio to display two parts the toolbar which contains My logo and a SVG file. The second part was to build a headline section right after the header which displayed a Hello message, a description of the portfolio owner and the links in which he can be contacted.
+    This project was built to display a portfolio to display two parts the toolbar which contains My logo and a SVG file. The second part was to build a headline section right after the header which displayed a Hello message, a description of the portfolio owner and the links in which he can be contacted. This project also contains card works which shows the projects that the developer has worked on. This part consists of the name of the project, name of client, year, position and the languages used in this project. Then it gives the user a link to visit the project that has been created. The third part of the project is called the about myself section where the developer says about himself and gives the links to his accounts. In there you can also see which languages does the developer has experience in and what frameworks he has worked with. Last part consits of a contact me page. Where the user can type their name and email address along with their message to the website creator which can be seen by the website owner using FormSpree. 
 
 
 ## Built With
@@ -15,9 +15,9 @@
 - HTML, CSS, Flexbox
 - Visual Studio Code
 
-## Live Demo (if available)
+## Github Pages Link 
 
-[Live Demo Link](https://livedemo.com)
+[Github Pages Link](https://wadaudzai.github.io/Portfolio-setup-and-mobile-version-skeleton/)
 
 
 ## Getting Started
