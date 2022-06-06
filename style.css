@@ -595,6 +595,7 @@ ul {
 
   .main-part {
     width: 100%;
+    overflow: visible;
   }
 
   .about-myself-section {
