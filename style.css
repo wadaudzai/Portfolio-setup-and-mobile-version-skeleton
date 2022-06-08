@@ -452,6 +452,15 @@ ul {
     display: none;
   }
 
+  .button-see-project {
+    height: auto;
+    line-height: 36px;
+  }
+
+  .about-myself-header {
+    height: auto;
+  }
+
   .text-desktop {
     display: block;
   }
@@ -487,7 +496,7 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 24px;
+    gap: 36px;
   }
 
   .top-nav-items-desktop {
@@ -496,7 +505,7 @@ ul {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    width: 63px;
+    width: auto;
     height: 20px;
     color: #344563;
     transition: all 1s;
@@ -545,7 +554,7 @@ ul {
 
   .project-info-p {
     width: 450px;
-    height: 70px;
+    height: auto;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -633,7 +642,7 @@ ul {
   }
 
   .lang-logo-tags {
-    width: 122px;
+    width: max-content;
     height: 120px;
     flex-direction: column;
     align-items: flex-start;
@@ -656,6 +665,7 @@ ul {
   }
 
   .contact-p {
+    height: auto;
     width: 569px;
     margin-bottom: 12px;
   }
