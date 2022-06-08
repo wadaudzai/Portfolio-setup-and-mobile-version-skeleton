@@ -28,7 +28,7 @@ header {
 }
 
 .logo {
-  color: #6070ff;
+  color: #8161cc;
   width: 100px;
   height: 40px;
   font-family: 'Poppins', sans-serif;
@@ -41,7 +41,7 @@ header {
 .menu {
   width: 24px;
   height: 24px;
-  color: #6070ff;
+  color: #8161cc;
 }
 
 .main-part {
@@ -83,7 +83,7 @@ header {
 }
 
 .connect-info {
-  color: #7f8cff;
+  color: #8161cc;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -198,7 +198,7 @@ header {
 }
 
 .button-see-project {
-  color: #396df2;
+  color: #8161cc;
   border: 1px solid #6070ff;
   border-radius: 8px;
   width: 124px;
@@ -212,7 +212,7 @@ header {
 }
 
 .button-see-project:hover {
-  background-color: #6070ff;
+  background-color: #8161cc;
   color: #fff;
 }
 
@@ -257,7 +257,7 @@ header {
 }
 
 .button-resume {
-  color: #396df2;
+  color: #8161cc;
   border: 1px solid #6070ff;
   border-radius: 8px;
   width: 138px;
@@ -271,7 +271,7 @@ header {
 }
 
 .button-resume:hover {
-  background-color: #6070ff;
+  background-color: #8161cc;
   color: #fff;
 }
 
@@ -400,7 +400,7 @@ ul {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #6070ff;
+  color: #8161cc;
   background-color: #fff;
   border-radius: 8px;
 }
