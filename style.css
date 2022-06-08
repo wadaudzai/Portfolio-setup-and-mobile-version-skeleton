@@ -260,11 +260,11 @@ header {
   color: #8161cc;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  width: 138px;
-  height: 48px;
+  width: max-content;
+  height: auto;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 36px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   background-color: #fff;
@@ -393,13 +393,13 @@ ul {
 .contact-form button {
   align-self: flex-start;
   margin-left: 25px;
-  width: 140px;
-  height: 48px;
+  width: max-content;
+  height: auto;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 36px;
   color: #8161cc;
   background-color: #fff;
   border-radius: 8px;
@@ -455,6 +455,7 @@ ul {
   .button-see-project {
     height: auto;
     line-height: 36px;
+    width: max-content;
   }
 
   .about-myself-header {
