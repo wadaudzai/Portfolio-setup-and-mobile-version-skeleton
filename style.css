@@ -502,6 +502,7 @@ ul {
 
   .top-nav-items-desktop {
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
