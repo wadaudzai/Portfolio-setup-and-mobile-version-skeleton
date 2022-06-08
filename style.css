@@ -28,7 +28,7 @@ header {
 }
 
 .logo {
-  color: #6070ff;
+  color: #8161cc;
   width: 100px;
   height: 40px;
   font-family: 'Poppins', sans-serif;
@@ -41,7 +41,7 @@ header {
 .menu {
   width: 24px;
   height: 24px;
-  color: #6070ff;
+  color: #8161cc;
 }
 
 .main-part {
@@ -83,7 +83,7 @@ header {
 }
 
 .connect-info {
-  color: #7f8cff;
+  color: #8161cc;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -198,7 +198,7 @@ header {
 }
 
 .button-see-project {
-  color: #396df2;
+  color: #8161cc;
   border: 1px solid #6070ff;
   border-radius: 8px;
   width: 124px;
@@ -206,13 +206,14 @@ header {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  padding: 5px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   background-color: #fff;
 }
 
 .button-see-project:hover {
-  background-color: #6070ff;
+  background-color: #8161cc;
   color: #fff;
 }
 
@@ -257,21 +258,22 @@ header {
 }
 
 .button-resume {
-  color: #396df2;
+  color: #8161cc;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  width: 138px;
-  height: 48px;
+  width: max-content;
+  height: auto;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
+  padding: 8px;
+  line-height: 36px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   background-color: #fff;
 }
 
 .button-resume:hover {
-  background-color: #6070ff;
+  background-color: #8161cc;
   color: #fff;
 }
 
@@ -393,14 +395,14 @@ ul {
 .contact-form button {
   align-self: flex-start;
   margin-left: 25px;
-  width: 140px;
-  height: 48px;
+  width: max-content;
+  height: auto;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
-  color: #6070ff;
+  line-height: 36px;
+  color: #8161cc;
   background-color: #fff;
   border-radius: 8px;
 }
@@ -452,6 +454,16 @@ ul {
     display: none;
   }
 
+  .button-see-project {
+    height: auto;
+    line-height: 36px;
+    width: max-content;
+  }
+
+  .about-myself-header {
+    height: auto;
+  }
+
   .text-desktop {
     display: block;
   }
@@ -487,16 +499,17 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 24px;
+    gap: 36px;
   }
 
   .top-nav-items-desktop {
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    width: 63px;
+    width: auto;
     height: 20px;
     color: #344563;
     transition: all 1s;
@@ -545,7 +558,7 @@ ul {
 
   .project-info-p {
     width: 450px;
-    height: 70px;
+    height: auto;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -633,7 +646,7 @@ ul {
   }
 
   .lang-logo-tags {
-    width: 122px;
+    width: max-content;
     height: 120px;
     flex-direction: column;
     align-items: flex-start;
@@ -645,6 +658,7 @@ ul {
 
   .contact-form button {
     align-self: center;
+    padding: 8px;
   }
 
   #message-container {
@@ -656,6 +670,7 @@ ul {
   }
 
   .contact-p {
+    height: auto;
     width: 569px;
     margin-bottom: 12px;
   }

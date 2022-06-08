@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Abdul's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,9 +17,9 @@
         <nav class="menu">
             <img src="./assets/icons/Union.png" alt="Menu Icon" class="header-image-mobile">
             <ul class="top-nav-desktop">
-                <li class="top-nav-items-desktop">Portfolio</li>
-                <li class="top-nav-items-desktop">About</li>
-                <li class="top-nav-items-desktop">Contact</li>
+                <li><a href="#" class="top-nav-items-desktop">Portfolio</a></li>
+                <li><a href="#" class="top-nav-items-desktop">About</a></li>
+                <li><a href="#" class="top-nav-items-desktop">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -52,7 +52,7 @@
                 <img src="./assets/images/snaposhot-1-desktop-p.png" alt="Snapshot Portfolio"
                     class="portfolio-img-1-desktop">
                 <article class="work-section-texts">
-                    <h1 class="project-title-heading">Tonic</h1>
+                    <h2 class="project-title-heading">Tonic</h2>
 
                     <article class="frame-2">
                         <h2 class="client-heading text-mobile">CANOPY</h2>
@@ -92,7 +92,7 @@
                 <img src="./assets/images/Multi-post-stories.png" alt="Snapshot Portfolio"
                     class="portfolio-img-1-mobile">
                 <article class="work-section-texts">
-                    <h1 class="project-title-heading">Multi-Post <br> Stories</h1>
+                    <h2 class="project-title-heading">Multi-Post <br> Stories</h2>
 
                     <article class="frame-2">
                         <h2 class="client-heading text-mobile">CANOPY</h2>
@@ -134,8 +134,8 @@
                 <img src="./assets/images/Tonic-page3.png" alt="Snapshot Portfolio" class="portfolio-img-1-mobile">
                 <img src="./assets/images/facebook-360-desktop.svg" alt="Snapshot Portfolio" class="portfolio-img-1-desktop">
                 <article class="work-section-texts">
-                    <h1 class="project-title-heading text-mobile">Tonic</h1>
-                    <h1 class="project-title-heading text-desktop">FACEBOOK 360</h1>
+                    <h2 class="project-title-heading text-mobile">Tonic</h2>
+                    <h2 class="project-title-heading text-desktop">FACEBOOK 360</h2>
 
                     <article class="frame-2">
                         <h2 class="client-heading text-mobile">CANOPY</h2>
@@ -175,8 +175,8 @@
 
                 <img src="./assets/images/multi-post-stories-2.png" alt="Snapshot Portfolio" class="portfolio-img-1-mobile">
                 <article class="work-section-texts">
-                    <h1 class="project-title-heading text-mobile">Multi-Post Stories</h1>
-                    <h1 class="project-title-heading text-desktop">Uber Navigation</h1>
+                    <h2 class="project-title-heading text-mobile">Multi-Post Stories</h2>
+                    <h2 class="project-title-heading text-desktop">Uber Navigation</h2>
 
                     <article class="frame-2">
                         <h2 class="client-heading text-mobile">CANOPY</h2>
@@ -281,8 +281,11 @@
             </article>
             <article class="form-article">
                 <form action="https://formspree.io/f/xpzbbbob" method="POST" class="contact-form">
-                    <input type="text" name="Name" placeholder="Write name." required maxlength="30">
-                    <input type="email" name="Email" placeholder="example@gmail.com" required>
+                    <label for="name"></label>
+                    <input type="text" name="Name" placeholder="Write name." required maxlength="30" id="name">
+                    <label for="email"></label>
+                    <input type="email" name="Email" placeholder="example@gmail.com" required id="email">
+                    <label for="message-container"></label>
                     <textarea name="message" id="message-container" cols="30" rows="10"
                         placeholder="write your message in here" maxlength="500" required></textarea>
                     <button type="submit" class="get-in-touch-btn
