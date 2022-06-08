@@ -206,6 +206,7 @@ header {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  padding: 5px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   background-color: #fff;
@@ -264,6 +265,7 @@ header {
   height: auto;
   font-weight: 500;
   font-size: 17px;
+  padding: 8px;
   line-height: 36px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -656,6 +658,7 @@ ul {
 
   .contact-form button {
     align-self: center;
+    padding: 8px;
   }
 
   #message-container {
