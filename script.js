@@ -67,12 +67,14 @@ let projectInfo = [{
 ]
 
 //button
-const buttonsee = document.querySelector('.button-see-project');
-buttonsee.addEventListener('click', makeDiv);
+const buttonsee = document.querySelectorAll('.button-see-project');
+buttonsee.forEach((btn)=>{
+    btn.addEventListener('click', makeDiv);
+})
 
 
 //function is to create div and append it to body and add class to it
-function makeDiv(){
+function makeDiv(event){
     let popup = document.createElement('div');
     document.body.append(popup);
     popup.classList.add('pop-up-class');
@@ -94,9 +96,11 @@ popup.append(projecthead, projectimg, projectdescrip, projecttech, projectbtncon
 projectbtncontainer.append(btnseelive, btnseesource);
 
 //add content to the elements of div
-projecthead.textContent = projectInfo [0]['name']
-projectimg.src = projectInfo [0]['featured image']
-projectdescrip.textContent = projectInfo [0]['description']
+let projectId = parseInt(event.target.id,10);
+console.log(projectId);
+projecthead.textContent = projectInfo [projectId].name;
+projectimg.src = projectInfo [projectId]['featured image'];
+projectdescrip.textContent = projectInfo [projectId]['description'];
 }
 
 
