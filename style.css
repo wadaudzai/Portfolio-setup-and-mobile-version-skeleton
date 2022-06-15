@@ -451,6 +451,13 @@ ul {
 
 /* pop up menu classes */
 
+.closeButton-class {
+  padding: 12px;
+  background-color: #fff;
+  background-image: url(./assets/icons/closeIcon.svg);
+  background-repeat: no-repeat;
+}
+
 .pop-up-class {
   flex-direction: column;
   align-items: center;
