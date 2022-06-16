@@ -839,8 +839,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px 70px;
-    left: 0px;
+    margin: 1px 70px;
+    left: 1px;
   }
 
   .project-head {
