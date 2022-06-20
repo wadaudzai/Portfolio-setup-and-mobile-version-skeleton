@@ -454,6 +454,10 @@ ul {
   display: none;
 }
 
+#close-icon {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .text-mobile {
     display: none;
@@ -735,7 +739,7 @@ ul {
   color: #fff;
 }
 .header-image-mobile {
-  z-index: 999;
+  z-index: 999; 
   display: block;
   position: absolute;
 }
@@ -746,10 +750,14 @@ ul {
   pointer-events: auto;
 }
 
-.active .menu .header-image-mobile {
+.active .menu #close-icon {
   display: block;
   z-index: 999;
   position: absolute;
+}
+
+.active .menu .header-image-mobile {
+  display: none;
 }
 }
 
