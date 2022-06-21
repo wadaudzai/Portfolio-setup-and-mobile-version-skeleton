@@ -290,6 +290,7 @@ ul {
 .first-list-about-myself {
   display: flex;
   justify-content: space-between;
+
   /* justify-content: baseline; */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -732,7 +733,7 @@ ul {
   }
 
   .top-nav-items-desktop {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -740,6 +741,7 @@ ul {
     color: #fff;
     position: absolute;
   }
+
   #porfolio {
     margin-top: 106px;
     text-decoration: none;
@@ -759,7 +761,7 @@ ul {
   }
 
   .header-image-mobile {
-    z-index: 999; 
+    z-index: 999;
     display: block;
     position: absolute;
   }
@@ -781,4 +783,3 @@ ul {
     display: none;
   }
 }
-
