@@ -1,7 +1,7 @@
-const mobile_nav = document.querySelector(".menu");
-const nav_header = document.querySelector(".header");
+const mobileNav = document.querySelector('.menu');
+const navHeader = document.querySelector('.header');
 const toggleNavbar = () => {
-    nav_header.classList.toggle("active");
+  navHeader.classList.toggle('active');
 };
 
-mobile_nav.addEventListener('click', () => toggleNavbar());
+mobileNav.addEventListener('click', () => toggleNavbar());
