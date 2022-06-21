@@ -7,12 +7,17 @@
   margin: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #e5e5e5;
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: -1;
+  overflow-x: hidden;
 }
 
 header {
@@ -21,11 +26,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 58px 24px;
+  position: relative;
 }
 
-.top-nav-desktop {
-  display: none;
-}
+/* .top-nav-desktop {
+   display: none;
+} */
 
 .logo {
   color: #8161cc;
@@ -284,7 +290,8 @@ ul {
 .first-list-about-myself {
   display: flex;
   justify-content: space-between;
-  justify-content: baseline;
+
+  /* justify-content: baseline; */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -446,6 +453,10 @@ ul {
 }
 
 .text-desktop {
+  display: none;
+}
+
+#close-icon {
   display: none;
 }
 
@@ -694,5 +705,81 @@ ul {
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
+  }
+
+  #close-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* Responsive nav bar */
+  .top-nav-desktop {
+    width: 100%;
+    height: 100vh;
+    background: rgb(64, 64, 219, 0.5);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .top-nav-items-desktop {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    position: absolute;
+  }
+
+  #porfolio {
+    margin-top: 106px;
+    text-decoration: none;
+    margin-left: 24px;
+  }
+
+  #about {
+    margin-top: 10rem;
+    margin-left: 24px;
+    text-decoration: none;
+  }
+
+  #contact {
+    margin-top: 13rem;
+    margin-left: 24px;
+    text-decoration: none;
+  }
+
+  .header-image-mobile {
+    z-index: 999;
+    display: block;
+    position: absolute;
+  }
+
+  .active .top-nav-desktop {
+    transform: translateX(0);
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .active .menu #close-icon {
+    display: block;
+    z-index: 999;
+    position: absolute;
+  }
+
+  .active .menu .header-image-mobile {
+    display: none;
   }
 }
