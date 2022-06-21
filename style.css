@@ -716,9 +716,9 @@ ul {
 .top-nav-desktop {
   width: 100%;
   height: 100vh;
-  background: #6070ff;
+  background: rgb(64, 64, 219, 0.5);
   backdrop-filter: blur(5px);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
