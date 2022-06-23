@@ -629,8 +629,8 @@ ul {
     width: 100%;
     height: 52.875em;
     background:
-      #6070ff url(./assets/images/contact-bg-form-desktop.svg)
-        no-repeat 65% 65%;
+        #6070ff url(./assets/images/contact-bg-form-desktop.svg)
+          no-repeat 65% 65%;
   }
 
   .main-part {
