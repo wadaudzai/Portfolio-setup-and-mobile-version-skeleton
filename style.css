@@ -544,8 +544,8 @@ ul {
 
   .headline-section {
     background:
-     #fff url(./assets/images/header-bg-desktop.svg) no-repeat 100%
-      20%;
+      #fff url(./assets/images/header-bg-desktop.svg) no-repeat 100%
+        20%;
     width: 100%;
     height: 57.25em;
     align-items: flex-start;
@@ -629,8 +629,8 @@ ul {
     width: 100%;
     height: 52.875em;
     background:
-     #6070ff url(./assets/images/contact-bg-form-desktop.svg)
-      no-repeat 65% 65%;
+      #6070ff url(./assets/images/contact-bg-form-desktop.svg)
+        no-repeat 65% 65%;
   }
 
   .main-part {
