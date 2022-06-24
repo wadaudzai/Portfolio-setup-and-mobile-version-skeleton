@@ -20,3 +20,19 @@ form.addEventListener('submit', (event) => {
     event.stopPropagation();
   }
 });
+
+// Preserve data
+
+const inputName = document.getElementById('name');
+const textarea = document.getElementById('message-container');
+
+form.addEventListener('input', () => {
+  localStorage.setItem('Name', `${inputName.value}`);
+  localStorage.setItem('Email', `${email.value}`);
+  localStorage.setItem('TextArea', `${textarea.value}`);
+});
+
+inputName.value = localStorage.getItem('Name');
+email.value = localStorage.getItem('Email');
+textarea.value = localStorage.getItem('TextArea');
+
