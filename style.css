@@ -473,14 +473,13 @@ ul {
   padding: 16px;
   gap: 12px;
   position: fixed;
-  width: 343px;
-  height: 713px;
-  left: calc(50% - 343px / 2);
+  width: fit-content;
+  height: fit-content;
   top: 20px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin: 0;
+  margin: 16px;
 }
 
 .project-head {
@@ -497,6 +496,18 @@ ul {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
+}
+
+.position-div-pp {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lang-btn-div {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .desktop-button-pp {
@@ -568,7 +579,17 @@ ul {
   padding: 6px;
 }
 
+.image-pp {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 768px) {
+  
+  #flipped {
+    flex-direction: row-reverse;
+  }
+
   .text-mobile {
     display: none;
   }
@@ -834,13 +855,18 @@ ul {
 
   .pop-up-class {
     width: fit-content;
-    height: max-content;
-    flex-wrap: wrap;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 1px 70px;
     left: 1px;
+    overflow-y: scroll;
+  }
+
+  .image-pp {
+    width: 80%;
+    height: 70%;
   }
 
   .project-head {
@@ -852,7 +878,7 @@ ul {
   }
 
   .project-descrip {
-    width: fit-content;
+    width: 50%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -871,5 +897,6 @@ ul {
   .position-div-pp {
     display: flex;
     align-items: baseline;
+    flex-direction: row;
   }
 }

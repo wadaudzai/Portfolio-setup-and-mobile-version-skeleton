@@ -3,93 +3,117 @@ console.log("walid");
 let projectInfo = [
   {
     name: "Tonic",
+    title: "Tonic",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     "featured image": "./assets/images/tonic-page-1.png",
+    "featured image desk": "./assets/images/snaposhot-1-desktop-p.png",
     technologies: ["html", "css", "javascript"],
     "link to live version":
       "https://wadaudzai.github.io/Portfolio-setup-and-mobile-version-skeleton/",
     "link to source":
       "https://github.com/wadaudzai/Portfolio-setup-and-mobile-version-skeleton",
+    id: 0, 
   },
   {
     name: "Multi-Post Stories",
+    title: "Multi-Post Stories",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     "featured image": "./assets/images/Multi-post-stories.png",
+    "featured image desk": "./assets/images/multi-post-portfolio-desktop-1.svg",
     technologies: ["html", "css", "javascript"],
     "link to live version":
       "https://wadaudzai.github.io/Portfolio-setup-and-mobile-version-skeleton/",
     "link to source":
       "https://github.com/wadaudzai/Portfolio-setup-and-mobile-version-skeleton",
+    id: 1,
   },
   {
     name: "Tonic",
+    title: "Facebook 360",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     "featured image": "./assets/images/Tonic-page3.png",
+    "featured image desk": "./assets/images/facebook-360-desktop.svg",
     technologies: ["html", "css", "javascript"],
     "link to live version":
       "https://wadaudzai.github.io/Portfolio-setup-and-mobile-version-skeleton/",
     "link to source":
       "https://github.com/wadaudzai/Portfolio-setup-and-mobile-version-skeleton",
+    id: 2,
   },
   {
     name: "Multi-Post Stories",
+    title: "Uber Navigation",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     "featured image": "./assets/images/multi-post-stories-2.png",
+    "featured image desk": "./assets/images/uber-nav-desktop.svg",
     technologies: ["html", "css", "javascript"],
     "link to live version":
       "https://wadaudzai.github.io/Portfolio-setup-and-mobile-version-skeleton/",
     "link to source":
       "https://github.com/wadaudzai/Portfolio-setup-and-mobile-version-skeleton",
-  },
-  {
-    name: "Tonic",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    "featured image": "./assets/images/snaposhot-1-desktop-p.png",
-    technologies: ["html", "css", "javascript", "ruby", "github", "bootstrap"],
-    "link to live version":
-      "https://wadaudzai.github.io/Portfolio-setup-and-mobile-version-skeleton/",
-    "link to source":
-      "https://github.com/wadaudzai/Portfolio-setup-and-mobile-version-skeleton",
-  },
-  {
-    name: "Multi-Post Stories",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    "featured image": "./assets/images/multi-post-portfolio-desktop-1.svg",
-    technologies: ["html", "css", "javascript", "ruby", "github", "bootstrap"],
-    "link to live version":
-      "https://wadaudzai.github.io/Portfolio-setup-and-mobile-version-skeleton/",
-    "link to source":
-      "https://github.com/wadaudzai/Portfolio-setup-and-mobile-version-skeleton",
-  },
-  {
-    name: "Facebook 360",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    "featured image": "./assets/images/facebook-360-desktop.svg",
-    technologies: ["html", "css", "javascript", "ruby", "github", "bootstrap"],
-    "link to live version":
-      "https://wadaudzai.github.io/Portfolio-setup-and-mobile-version-skeleton/",
-    "link to source":
-      "https://github.com/wadaudzai/Portfolio-setup-and-mobile-version-skeleton",
-  },
-  {
-    name: "Uber Navigation",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    "featured image": "./assets/images/uber-nav-desktop.svg",
-    technologies: ["html", "css", "javascript", "ruby", "github", "bootstrap"],
-    "link to live version":
-      "https://wadaudzai.github.io/Portfolio-setup-and-mobile-version-skeleton/",
-    "link to source":
-      "https://github.com/wadaudzai/Portfolio-setup-and-mobile-version-skeleton",
+    id: 3,
   },
 ];
+
+projectInfo.forEach((element, i) => {
+  const work = document.querySelector('.work');
+  const card = document.createElement('article');
+  card.classList = 'work-section';
+  if (i === 1){
+    card.setAttribute('id', 'flipped');
+  } else if (i === 3) {
+    card.setAttribute('id', 'flipped');
+  }
+
+  const popupcard = `
+  <img src="${projectInfo[i]["featured image"]}" alt="Snapshot Portfolio" class="portfolio-img-1-mobile">
+<img src="${projectInfo[i]["featured image desk"]}" alt="Snapshot Portfolio"
+    class="portfolio-img-1-desktop">
+<article class="work-section-texts">
+    <h2 class="project-title-heading text-mobile">${projectInfo[i].name}</h2>
+    <h2 class="project-title-heading text-desktop">${projectInfo[i].title}</h2>
+
+    <article class="frame-2">
+        <h2 class="client-heading text-mobile">CANOPY</h2>
+        <h2 class="client-heading text-desktop">CANOPY</h2>
+        <img src="./assets/icons/Counter.png" alt="Counter">
+        <h2 class="role text-mobile">Back End Dev</h2>
+        <h2 class="role text-desktop">Back End Dev</h2>
+        <img src="./assets/icons/Counter.png" alt="Counter">
+        <h2 class="year text-mobile">2015</h2>
+        <h2 class="year text-desktop">2015</h2>
+    </article>
+
+    <p class="project-info-p text-mobile">
+        A daily selection of privately personalized reads; no accounts or sign-ups required.
+    </p>
+    <p class="project-info-p text-desktop">
+        A daily selection of privately personalized reads; no accounts or sign-ups required.
+    </p>
+
+    <ul class="logo-tags">
+        <li><a href="#"><img src="./assets/icons/Htmllogo.png" alt="Htmllogo"></a></li>
+        <li><a href="#"><img src="./assets/icons/ruby-n-rails-tag.png" alt="RubyLogo" class="portfolio-img-1-desktop"></a></li>
+        <li><a href="#"><img src="./assets/icons/csslogo.png" alt="csslogo"></a></li>
+        <li><a href="#"><img src="./assets/icons/jslogo.png" alt="jslogo"></a></li>
+    </ul>
+    <div class="button-container">
+        <button class="button-see-project" type="button" id="${projectInfo[i].id}">
+            See project
+        </button>
+    </div>
+</article>
+
+`;
+  card.innerHTML += popupcard;
+  work.appendChild(card);
+});
+
+
 
 //button
 const buttonsee = document.querySelectorAll(".button-see-project");
@@ -109,6 +133,7 @@ function makeDiv(event) {
   let projecthead = document.createElement("h2");
   projecthead.classList.add("project-head");
   let projectimg = document.createElement("img");
+  projectimg.classList.add('image-pp')
   let positiondiv = document.createElement('div');
   positiondiv.classList.add('position-div-pp');
   let projectdescrip = document.createElement("p");
