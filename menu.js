@@ -35,3 +35,4 @@ form.addEventListener('input', () => {
 inputName.value = localStorage.getItem('Name');
 email.value = localStorage.getItem('Email');
 textarea.value = localStorage.getItem('TextArea');
+
