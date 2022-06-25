@@ -35,7 +35,6 @@ form.addEventListener('input', () => {
 //get values from local storage
 inputName.value = localStorage.getItem('Name');
 email.value = localStorage.getItem('Email');
-textarea.value = localStorage.getItem('TextArea');
 
 
 //Dynamics part
