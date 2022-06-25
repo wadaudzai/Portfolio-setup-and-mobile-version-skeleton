@@ -197,7 +197,6 @@ function makeDiv(event) {
 
   // add content to the elements of div
   const projectId = parseInt(event.target.id, 10);
-  console.log(projectId);
   projecthead.textContent = projectInfo[projectId].name;
   projectimg.src = projectInfo[projectId]['featured image'];
   projectdescrip.textContent = projectInfo[projectId].description;
@@ -225,7 +224,6 @@ function makeDiv(event) {
   }
   const clickCloseButton = document.getElementById('close-button');
   clickCloseButton.addEventListener('click', closeButtonFunction);
-  
 }
 
 // button
