@@ -465,7 +465,7 @@ ul {
 }
 
 #error {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -498,7 +498,6 @@ ul {
   gap: 12px;
   position: fixed;
   width: fit-content;
-  height: fit-content;
   top: 20px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -609,7 +608,6 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-
   #flipped {
     flex-direction: row-reverse;
   }
@@ -684,8 +682,7 @@ ul {
   }
 
   .headline-section {
-    background: #fff url(./assets/images/header-bg-desktop.svg) no-repeat 100%
-      20%;
+    background: #fff url(./assets/images/header-bg-desktop.svg) no-repeat 100% 20%;
     width: 100%;
     height: 57.25em;
     align-items: flex-start;
@@ -768,8 +765,7 @@ ul {
   .contact-section {
     width: 100%;
     height: 52.875em;
-    background: #6070ff url(./assets/images/contact-bg-form-desktop.svg)
-      no-repeat 65% 65%;
+    background: #6070ff url(./assets/images/contact-bg-form-desktop.svg) no-repeat 65% 65%;
   }
 
   .main-part {
