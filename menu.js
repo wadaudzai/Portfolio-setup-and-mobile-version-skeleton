@@ -50,7 +50,7 @@ const projectInfo = [
       'https://wadaudzai.github.io/Portfolio-setup-and-mobile-version-skeleton/',
     'link to source':
       'https://github.com/wadaudzai/Portfolio-setup-and-mobile-version-skeleton',
-    id: 0, 
+    id: 0,
   },
   {
     name: 'Multi-Post Stories',
@@ -150,12 +150,6 @@ projectInfo.forEach((element, i) => {
   work.appendChild(card);
 });
 
-// button
-const buttonsee = document.querySelectorAll('.button-see-project');
-buttonsee.forEach((btn) => {
-  btn.addEventListener('click', makeDiv);
-});
-
 // function is to create div and append it to body and add class to it
 function makeDiv(event) {
   const popup = document.createElement('div');
@@ -164,7 +158,7 @@ function makeDiv(event) {
 
   // add elements
   const header = document.createElement('div');
-  header.classList.add('header-pp')
+  header.classList.add('header-pp');
   const projecthead = document.createElement('h2');
   projecthead.classList.add('project-head');
   const projectimg = document.createElement('img');
@@ -206,7 +200,7 @@ function makeDiv(event) {
   console.log(projectId);
   projecthead.textContent = projectInfo[projectId].name;
   projectimg.src = projectInfo[projectId]['featured image'];
-  projectdescrip.textContent = projectInfo[projectId]['description'];
+  projectdescrip.textContent = projectInfo[projectId].description;
 
   for (let i = 0; i < projectInfo[projectId].technologies.length; i += 1) {
     const projectLi = document.createElement('li');
@@ -226,9 +220,16 @@ function makeDiv(event) {
   btnseesource.textContent = 'See Source';
 
   // close button function
-  const clickCloseButton = document.getElementById('close-button');
-  clickCloseButton.addEventListener('click', closeButtonFunction);
   function closeButtonFunction() {
     popup.remove();
   }
+  const clickCloseButton = document.getElementById('close-button');
+  clickCloseButton.addEventListener('click', closeButtonFunction);
+  
 }
+
+// button
+const buttonsee = document.querySelectorAll('.button-see-project');
+buttonsee.forEach((btn) => {
+  btn.addEventListener('click', makeDiv);
+});
