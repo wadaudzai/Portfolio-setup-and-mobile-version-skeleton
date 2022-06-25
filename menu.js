@@ -236,4 +236,3 @@ function makeDiv(event) {
   }
 }
 
-
